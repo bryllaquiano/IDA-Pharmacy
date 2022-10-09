@@ -1,0 +1,474 @@
+{
+  "current": {
+    "type_header_font": "poppins_n7",
+    "type_base_font": "poppins_n4",
+    "checkout_header_image": "shopify:\/\/shop_images\/clay-banks-E2HgkL3LaFE-unsplash.jpg",
+    "checkout_logo_image": "shopify:\/\/shop_images\/ida-logo.png",
+    "checkout_logo_size": "large",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "align_logo": "left",
+          "logo": "shopify:\/\/shop_images\/ida-logo_v02.png",
+          "logo_max_width": 190,
+          "main_linklist": "main-menu",
+          "message": false,
+          "home_page_only": true,
+          "message_text": "Announce something here",
+          "message_link": "",
+          "color_bg": "#3a3a3a",
+          "color_text": "#ffffff"
+        }
+      },
+      "hero-1": {
+        "type": "hero",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/ida-banner.png",
+          "alignment": "center",
+          "hero_layout": "full_width",
+          "hero_size": "large",
+          "text_size": "large",
+          "title": "Our online store is now open",
+          "text": "<p>Access thousands of health products at the touch of your fingertips<\/p>",
+          "button_label": "Shop Now",
+          "button_link": "shopify:\/\/collections"
+        }
+      },
+      "feature-row": {
+        "type": "feature-row",
+        "disabled": true,
+        "settings": {
+          "layout": "left",
+          "title": "Image with text",
+          "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "feature-columns": {
+        "type": "feature-columns",
+        "blocks": {
+          "feature-columns-0": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/IMG_7854_jpg.png",
+              "title": "PHARMACY SERVICES",
+              "text": "<p>Our pharmacists can help you and your family in your health and wellness journey every step of the way. Browse our services to discover the many ways your pharmacist can help.<\/p>",
+              "button_label": "Browse Services",
+              "button_link": "shopify:\/\/pages\/our-services"
+            }
+          },
+          "feature-columns-1": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/IMG_7833_jpg_1.png",
+              "title": "PRODUCTS",
+              "text": "<p>Johnstone IDA offers a wide range of products for all your and your family's health needs. Check out our shop and see what's in store for you.<\/p>",
+              "button_label": "Shop Now",
+              "button_link": "shopify:\/\/collections"
+            }
+          },
+          "feature-columns-2": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/hands-holding-a-phone.jpg",
+              "title": "CONTACT DETAILS",
+              "text": "<p>Sometimes, you just need a little help. Don't worry. The friendly experts from Johnstone IDA are here to help. You can check our hours and all our contact details here.<\/p>",
+              "button_label": "contact us",
+              "button_link": "shopify:\/\/pages\/contact"
+            }
+          }
+        },
+        "block_order": [
+          "feature-columns-0",
+          "feature-columns-1",
+          "feature-columns-2"
+        ],
+        "settings": {
+          "title": "Learn more about IDA",
+          "align_text": "left"
+        }
+      },
+      "collection": {
+        "type": "collection",
+        "settings": {
+          "title": "Featured collection",
+          "collection": "cough-cold-flu",
+          "grid": 4,
+          "rows": 2,
+          "show_vendor": false,
+          "show_view_all": true
+        }
+      },
+      "hero-2": {
+        "type": "hero",
+        "disabled": true,
+        "settings": {
+          "alignment": "center",
+          "hero_layout": "full_width",
+          "hero_size": "medium",
+          "text_size": "large",
+          "title": "Image with text overlay",
+          "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "quotes": {
+        "type": "quotes",
+        "disabled": true,
+        "blocks": {
+          "quotes-0": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
+          },
+          "quotes-1": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
+          },
+          "quotes-2": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
+          }
+        },
+        "block_order": [
+          "quotes-0",
+          "quotes-1",
+          "quotes-2"
+        ],
+        "settings": {
+          "title": ""
+        }
+      },
+      "image-bar": {
+        "type": "image-bar",
+        "disabled": true,
+        "blocks": {
+          "image-bar-0": {
+            "type": "image",
+            "settings": {
+              "alignment": "center",
+              "link": "",
+              "cta_label": ""
+            }
+          },
+          "image-bar-1": {
+            "type": "image",
+            "settings": {
+              "alignment": "center",
+              "link": "",
+              "cta_label": ""
+            }
+          },
+          "image-bar-2": {
+            "type": "image",
+            "settings": {
+              "alignment": "center",
+              "link": "",
+              "cta_label": ""
+            }
+          }
+        },
+        "block_order": [
+          "image-bar-0",
+          "image-bar-1",
+          "image-bar-2"
+        ],
+        "settings": {
+          "section_height": "medium"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "title": "Quick links",
+              "menu": "footer"
+            }
+          },
+          "footer-1": {
+            "type": "newsletter",
+            "settings": {
+              "title": "Newsletter"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "footer-1"
+        ],
+        "settings": {
+          "show_payment_icons": false,
+          "show_locale_selector": true,
+          "show_currency_selector": true
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "display_type": "all",
+          "sort": "alphabetical",
+          "grid": 3
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "layout": "grid",
+          "grid": 4,
+          "rows": 2,
+          "show_collection_image": true,
+          "show_vendor": false,
+          "sort_enable": true,
+          "tags_enable": true
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "show_quantity_selector": false,
+          "show_vendor": false,
+          "enable_payment_button": true,
+          "show_share_buttons": true,
+          "media_size": "medium",
+          "enable_image_zoom": true,
+          "enable_video_looping": false
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "heading": "You may also like",
+          "show_vendor": false
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+          "cart_ajax_enable": true,
+          "cart_notes_enable": false
+        }
+      },
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "settings": {
+          "message": false,
+          "home_page_only": false,
+          "header_padding": 0,
+          "message_text": "SALE SALE SALE",
+          "free_shipping_countdown": false,
+          "free_shipping_threshold": 25,
+          "free_shipping_notqualified": "Add just [price] to your cart to receive free shipping!",
+          "free_shipping_qualified": "Your order qualifies for free shipping!",
+          "message_link": "",
+          "color_bg": "#ffffff",
+          "color_text": "#ffffff",
+          "color_text_hover": "#ffffff",
+          "font_size": 14
+        }
+      },
+      "rich-text": {
+        "type": "rich-text",
+        "settings": {
+          "full_width": false,
+          "section_title": "Talk about your brand",
+          "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+          "text_size": "medium"
+        }
+      },
+      "hero": {
+        "type": "hero",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/ed-us-K0DMl4NmOPo-unsplash.jpg",
+          "alignment": "center",
+          "hero_layout": "full_width",
+          "hero_size": "medium",
+          "text_size": "medium",
+          "title": "Pharmacy Services",
+          "text": "<p>Our pharmacists can help you and your family in your health and wellness journey every step of the way. <\/p><p>Browse our services below to discover the many ways your pharmacist can help.<\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "srvc-img": {
+        "type": "srvc-img",
+        "settings": {
+        }
+      }
+    },
+    "content_for_index": [
+      "hero-1",
+      "feature-row",
+      "feature-columns",
+      "collection",
+      "hero-2",
+      "image-bar",
+      "quotes"
+    ]
+  },
+  "presets": {
+    "Default": {
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+          }
+        },
+        "hero-1": {
+          "type": "hero",
+          "settings": {
+            "hero_size": "large",
+            "text_size": "large"
+          }
+        },
+        "feature-row": {
+          "type": "feature-row",
+          "settings": {
+          }
+        },
+        "feature-columns": {
+          "type": "feature-columns",
+          "blocks": {
+            "feature-columns-0": {
+              "type": "text_block",
+              "settings": {
+              }
+            },
+            "feature-columns-1": {
+              "type": "text_block",
+              "settings": {
+              }
+            },
+            "feature-columns-2": {
+              "type": "text_block",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "feature-columns-0",
+            "feature-columns-1",
+            "feature-columns-2"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "collection": {
+          "type": "collection",
+          "settings": {
+            "grid": 4
+          }
+        },
+        "hero-2": {
+          "type": "hero",
+          "settings": {
+            "text_size": "large"
+          }
+        },
+        "quotes": {
+          "type": "quotes",
+          "blocks": {
+            "quotes-0": {
+              "type": "quote",
+              "settings": {
+              }
+            },
+            "quotes-1": {
+              "type": "quote",
+              "settings": {
+              }
+            },
+            "quotes-2": {
+              "type": "quote",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "quotes-0",
+            "quotes-1",
+            "quotes-2"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "image-bar": {
+          "type": "image-bar",
+          "blocks": {
+            "image-bar-0": {
+              "type": "image",
+              "settings": {
+              }
+            },
+            "image-bar-1": {
+              "type": "image",
+              "settings": {
+              }
+            },
+            "image-bar-2": {
+              "type": "image",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "image-bar-0",
+            "image-bar-1",
+            "image-bar-2"
+          ],
+          "settings": {
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "link_list",
+              "settings": {
+              }
+            },
+            "footer-1": {
+              "type": "newsletter",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1"
+          ],
+          "settings": {
+            "show_payment_icons": true
+          }
+        }
+      },
+      "content_for_index": [
+        "hero-1",
+        "feature-row",
+        "feature-columns",
+        "collection",
+        "hero-2",
+        "quotes",
+        "image-bar"
+      ]
+    }
+  }
+}
