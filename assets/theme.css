@@ -9420,12 +9420,15 @@ list-style: square;
   color: white;
 }
 
-#grid-collection {
+.grid-collection {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  grid-gap: 5px;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
 }
 
+.grid-collection li {
+  width: 100%;
+}
 /* Breadcrumb Link */
 .breadcrumb{
   padding: 30px;
@@ -9435,5 +9438,17 @@ list-style: square;
 @media screen and (min-width: 800px) {
   #grid-single-product {
     flex-direction: row;
+  }
+
+  .grid-collection {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .grid-collection {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
   }
 }
