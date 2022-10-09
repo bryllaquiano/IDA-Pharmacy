@@ -9407,6 +9407,33 @@ list-style: square;
 	fill: #ffffff;
 }
 
-.grid {
- border: 1px solid red;
+/* Single Product Page - ID is in product-template.liquid */
+#grid-single-product {
+  display: flex;
+  flex-direction: column;
+  padding-right: 30px;
+
+}
+
+/* Sold Out Badge */
+.price__badge--sold-out {
+  color: white;
+}
+
+#grid-collection {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-gap: 5px;
+}
+
+/* Breadcrumb Link */
+.breadcrumb{
+  padding: 30px;
+}
+
+
+@media screen and (min-width: 800px) {
+  #grid-single-product {
+    flex-direction: row;
+  }
 }
