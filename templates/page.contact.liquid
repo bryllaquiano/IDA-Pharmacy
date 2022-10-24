@@ -16,9 +16,13 @@
         {% form 'contact', id: formId %}
           {% include 'form-status', form: form, form_id: formId %}
 
-          <div class="grid grid--half-gutters">
-            <div class="grid__item medium-up--one-half">
-              <label for="{{ formId }}-name">{{ 'contact.form.name' | t }}</label>
+          <div class="grid-contact-info grid grid--half-gutters">
+            {%- comment -%}
+              Name
+            {%- endcomment -%}
+            <div class="grid-contact-form-item grid__item medium-up--one-half">
+              <label for="{{ formId }}-name">{{ 'contact.form.name' | t }}
+              </label>
               <input type="text" id="{{ formId }}-name" name="contact[{{ 'contact.form.name' | t }}]" value="{% if form[name] %}{{ form[name] }}{% elsif customer %}{{ customer.name }}{% endif %}">
             </div>
             <div class="grid__item medium-up--one-half">
