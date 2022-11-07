@@ -268,12 +268,12 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "settings": {
-          "message": false,
+          "message": true,
           "home_page_only": false,
-          "header_padding": 0,
-          "message_text": "SALE SALE SALE",
+          "header_padding": 48,
+          "message_text": "$5 LOCAL DELIVERY - within Red Deer City",
           "free_shipping_countdown": false,
-          "free_shipping_threshold": 25,
+          "free_shipping_threshold": 5,
           "free_shipping_notqualified": "Add just [price] to your cart to receive free shipping!",
           "free_shipping_qualified": "Your order qualifies for free shipping!",
           "message_link": "",
