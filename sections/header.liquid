@@ -104,7 +104,7 @@ style="max-width: {{ section.settings.logo_max_width }}px;">
 
 {% if section.settings.align_logo == 'left' %}
 <nav class="grid__item medium-up--one-half small--hide" id="AccessibleNav" role="navigation">
-{% include 'site-nav', linklist: section.settings.main_linklist %}
+{% comment %}{% include 'site-nav', linklist: section.settings.main_linklist %}{% endcomment %}
 </nav>
 {% endif %}
 
