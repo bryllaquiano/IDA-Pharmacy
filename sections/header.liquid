@@ -116,10 +116,15 @@ style="max-width: {{ section.settings.logo_max_width }}px;">
 <span class="icon__fallback-text">{{ 'layout.navigation.search' | t }}</span>
 </button>
 {% endcomment %}
-          <button type="button" class="btn--link site-header__icon site-header__search-toggle js-drawer-open-top" data-predictive-search-open-drawer>
-            {% include 'icon-search' %}
-            <span class="icon__fallback-text">{{ 'layout.navigation.search' | t }}</span>
-          </button>
+
+{% comment %}
+This is for the Search Button
+  <button type="button" class="btn--link site-header__icon site-header__search-toggle js-drawer-open-top" data-predictive-search-open-drawer>
+    {% include 'icon-search' %}
+    <span class="icon__fallback-text">{{ 'layout.navigation.search' | t }}</span>
+  </button>
+{% endcomment %}
+
 {% if shop.customer_accounts_enabled %}
 {% if customer %}
 <a href="{{ routes.account_url }}" class="site-header__icon site-header__account">
