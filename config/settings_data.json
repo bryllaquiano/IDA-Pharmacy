@@ -1,16 +1,25 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "type_header_font": "poppins_n7",
     "type_base_font": "poppins_n4",
-    "checkout_header_image": "shopify:\/\/shop_images\/clay-banks-E2HgkL3LaFE-unsplash.jpg",
-    "checkout_logo_image": "shopify:\/\/shop_images\/ida-logo.png",
+    "checkout_header_image": "shopify://shop_images/clay-banks-E2HgkL3LaFE-unsplash.jpg",
+    "checkout_logo_image": "shopify://shop_images/ida-logo.png",
     "checkout_logo_size": "large",
     "sections": {
       "header": {
         "type": "header",
         "settings": {
           "align_logo": "left",
-          "logo": "shopify:\/\/shop_images\/ida-logo_v02.png",
+          "logo": "shopify://shop_images/ida-logo_v02.png",
           "logo_max_width": 190,
           "main_linklist": "main-menu",
           "message": false,
@@ -24,15 +33,15 @@
       "hero-1": {
         "type": "hero",
         "settings": {
-          "image": "shopify:\/\/shop_images\/ida-banner.png",
+          "image": "shopify://shop_images/ida-banner.png",
           "alignment": "center",
           "hero_layout": "full_width",
           "hero_size": "large",
           "text_size": "large",
           "title": "Our online store is now open",
-          "text": "<p>Access thousands of health products at the touch of your fingertips<\/p>",
+          "text": "<p>Access thousands of health products at the touch of your fingertips</p>",
           "button_label": "Shop Now",
-          "button_link": "shopify:\/\/collections"
+          "button_link": ""
         }
       },
       "feature-row": {
@@ -41,7 +50,7 @@
         "settings": {
           "layout": "left",
           "title": "Image with text",
-          "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+          "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
           "button_label": "",
           "button_link": ""
         }
@@ -53,33 +62,33 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/IMG_7854_jpg.png",
+              "image": "shopify://shop_images/IMG_7854_jpg.png",
               "title": "PHARMACY SERVICES",
-              "text": "<p>Our pharmacists can help you and your family in your health and wellness journey every step of the way. Browse our services to discover the many ways your pharmacist can help.<\/p>",
+              "text": "<p>Our pharmacists can help you and your family in your health and wellness journey every step of the way. Browse our services to discover the many ways your pharmacist can help.</p>",
               "button_label": "Browse Services",
-              "button_link": "shopify:\/\/pages\/our-services"
+              "button_link": "shopify://pages/our-services"
             }
           },
           "feature-columns-1": {
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/IMG_7833_jpg_1.png",
+              "image": "shopify://shop_images/IMG_7833_jpg_1.png",
               "title": "PRODUCTS",
-              "text": "<p>Johnstone IDA offers a wide range of products for all your and your family's health needs. Check out our shop and see what's in store for you.<\/p>",
+              "text": "<p>Johnstone IDA offers a wide range of products for all your and your family's health needs. Check out our shop and see what's in store for you.</p>",
               "button_label": "Shop Now",
-              "button_link": "shopify:\/\/collections"
+              "button_link": ""
             }
           },
           "feature-columns-2": {
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/hands-holding-a-phone.jpg",
+              "image": "shopify://shop_images/hands-holding-a-phone.jpg",
               "title": "CONTACT DETAILS",
-              "text": "<p>Sometimes, you just need a little help. Don't worry. The friendly experts from Johnstone IDA are here to help. You can check our hours and all our contact details here.<\/p>",
+              "text": "<p>Sometimes, you just need a little help. Don't worry. The friendly experts from Johnstone IDA are here to help. You can check our hours and all our contact details here.</p>",
               "button_label": "contact us",
-              "button_link": "shopify:\/\/pages\/contact"
+              "button_link": "shopify://pages/contact"
             }
           }
         },
@@ -95,6 +104,7 @@
       },
       "collection": {
         "type": "collection",
+        "disabled": true,
         "settings": {
           "title": "Featured collection",
           "collection": "cough-cold-flu",
@@ -113,33 +123,32 @@
           "hero_size": "medium",
           "text_size": "large",
           "title": "Image with text overlay",
-          "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
+          "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>",
           "button_label": "",
           "button_link": ""
         }
       },
       "quotes": {
         "type": "quotes",
-        "disabled": true,
         "blocks": {
           "quotes-0": {
             "type": "quote",
             "settings": {
-              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
               "author": "Author's name"
             }
           },
           "quotes-1": {
             "type": "quote",
             "settings": {
-              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
               "author": "Author's name"
             }
           },
           "quotes-2": {
             "type": "quote",
             "settings": {
-              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
               "author": "Author's name"
             }
           }
@@ -149,13 +158,13 @@
           "quotes-1",
           "quotes-2"
         ],
+        "disabled": true,
         "settings": {
           "title": ""
         }
       },
       "image-bar": {
         "type": "image-bar",
-        "disabled": true,
         "blocks": {
           "image-bar-0": {
             "type": "image",
@@ -187,6 +196,7 @@
           "image-bar-1",
           "image-bar-2"
         ],
+        "disabled": true,
         "settings": {
           "section_height": "medium"
         }
@@ -288,28 +298,27 @@
         "settings": {
           "full_width": false,
           "section_title": "Talk about your brand",
-          "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+          "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
           "text_size": "medium"
         }
       },
       "hero": {
         "type": "hero",
         "settings": {
-          "image": "shopify:\/\/shop_images\/ed-us-K0DMl4NmOPo-unsplash.jpg",
+          "image": "shopify://shop_images/ed-us-K0DMl4NmOPo-unsplash.jpg",
           "alignment": "center",
           "hero_layout": "full_width",
           "hero_size": "medium",
           "text_size": "medium",
           "title": "Pharmacy Services",
-          "text": "<p>Our pharmacists can help you and your family in your health and wellness journey every step of the way. <\/p><p>Browse our services below to discover the many ways your pharmacist can help.<\/p>",
+          "text": "<p>Our pharmacists can help you and your family in your health and wellness journey every step of the way. </p><p>Browse our services below to discover the many ways your pharmacist can help.</p>",
           "button_label": "",
           "button_link": ""
         }
       },
       "srvc-img": {
         "type": "srvc-img",
-        "settings": {
-        }
+        "settings": {}
       }
     },
     "content_for_index": [
@@ -327,8 +336,7 @@
       "sections": {
         "header": {
           "type": "header",
-          "settings": {
-          }
+          "settings": {}
         },
         "hero-1": {
           "type": "hero",
@@ -339,26 +347,22 @@
         },
         "feature-row": {
           "type": "feature-row",
-          "settings": {
-          }
+          "settings": {}
         },
         "feature-columns": {
           "type": "feature-columns",
           "blocks": {
             "feature-columns-0": {
               "type": "text_block",
-              "settings": {
-              }
+              "settings": {}
             },
             "feature-columns-1": {
               "type": "text_block",
-              "settings": {
-              }
+              "settings": {}
             },
             "feature-columns-2": {
               "type": "text_block",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
@@ -387,18 +391,15 @@
           "blocks": {
             "quotes-0": {
               "type": "quote",
-              "settings": {
-              }
+              "settings": {}
             },
             "quotes-1": {
               "type": "quote",
-              "settings": {
-              }
+              "settings": {}
             },
             "quotes-2": {
               "type": "quote",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
@@ -415,18 +416,15 @@
           "blocks": {
             "image-bar-0": {
               "type": "image",
-              "settings": {
-              }
+              "settings": {}
             },
             "image-bar-1": {
               "type": "image",
-              "settings": {
-              }
+              "settings": {}
             },
             "image-bar-2": {
               "type": "image",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
@@ -434,21 +432,18 @@
             "image-bar-1",
             "image-bar-2"
           ],
-          "settings": {
-          }
+          "settings": {}
         },
         "footer": {
           "type": "footer",
           "blocks": {
             "footer-0": {
               "type": "link_list",
-              "settings": {
-              }
+              "settings": {}
             },
             "footer-1": {
               "type": "newsletter",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
